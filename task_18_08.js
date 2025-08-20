@@ -62,16 +62,19 @@
 
 
 
-const str = "shubham";
-let rev="";
-for (let i = str.length-1 ; i >= 0; i--) {
+// const str = "shubham";
+// let rev="";
+// for (let i = str.length-1 ; i >= 0; i--) {
               
-  rev += str[i];
-  console.log(rev)
+//   rev += str[i];
+//   console.log(rev)
 
-}
+// }
 
-function reverseWithReduce(str) {
-  return [...str].reduce((chn, char) => char + chn, "");
-}
-console.log(reverseWithReduce("hello")); // Output: "olleh"
+// function reverseWithReduce(str) {
+//   return [...str].reduce((chn, char) => char + chn, "");
+// }
+// console.log(reverseWithReduce("hello")); // Output: "olleh"
+function master(){
+  console.log("hello boss");
+}master();
