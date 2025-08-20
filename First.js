@@ -6,9 +6,9 @@ for (let i =str.length -1;i>=0;i--){
 }
 console.log(reverse);
 
- function reve(str){
+ function reve2(str){
   return str
- }console.log(reve("hello user"))
+ }console.log(reve2("hello user"))
 
  const arr=[1,2,3,4,5];
  const s = arr.reverse();
