@@ -9,3 +9,7 @@ console.log(reverse);
  function reve(str){
   return str
  }console.log(reve("hello user"))
+
+ const arr=[1,2,3,4,5];
+ const s = arr.reverse();
+ console.log(s)
